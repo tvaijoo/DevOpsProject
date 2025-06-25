@@ -7,8 +7,6 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: pass
-    volumes:
-      - C:\Users\tvaij\Downloads\day3\data:/data/db
   mongo-express:
     image: mongo-express
     ports:
